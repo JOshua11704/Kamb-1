@@ -1,0 +1,73 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+main {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Estilos para el botón */
+#boton {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#boton:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el resultado */
+#Resultado {
+    margin-top: 20px;
+/*    display: none;  Oculto por defecto */
+}
+
+#Resultado img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#Resultado p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Estilo para datos */
+#Resultado p:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#Resultado p:last-child {
+    color: #007BFF;
+    font-size: 16px;
+}

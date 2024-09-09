@@ -1,0 +1,6 @@
+// CREATE
+curl -i -H "Accept:application/json" -H "Content-Type:application/json" -H "Authorization: Bearer 48311a46a7d1b0f604f5fabb092e324503775ac631d3d4ee0e052aef51d84ee6" -XPOST "https://gorest.co.in/public/v2/users" -d '{"name":"Tenali Ramakrishna", "gender":"male", "email":"tenali.ramakrishna@15ce.com", "status":"active"}'
+
+
+// UPDATE
+curl -i -H "Accept:application/json" -H "Content-Type:application/json" -H "Authorization: Bearer 48311a46a7d1b0f604f5fabb092e324503775ac631d3d4ee0e052aef51d84ee6" -XPATCH "https://gorest.co.in/public/v2/users/6940704" -d '{"name":"Allasani Peddana", "email":"allasani.peddana@15ce.com", "status":"active"}'
