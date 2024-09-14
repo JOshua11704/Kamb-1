@@ -1,0 +1,32 @@
+*{
+    background-color: beige;
+}
+.imagen-contenedor {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin-top: 50px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .titulo {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    color: #2c3e50; /* Color oscuro para el título */
+    margin-bottom: 20px;
+  }
+  
+  .imagen {
+    width: 300px; /* Ancho de la imagen */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra para la imagen */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efecto de transición */
+  }
+  
+  .imagen:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al hacer hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Sombra más intensa al hacer hover */
+  }
+  

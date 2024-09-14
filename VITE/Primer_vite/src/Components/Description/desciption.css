@@ -1,0 +1,20 @@
+/* Estilos del párrafo */
+.descripcion {
+    font-family: 'Georgia', serif; /* Tipografía elegante y legible */
+    font-size: 1.125rem; /* Tamaño de fuente cómodo para lectura */
+    color: #2c3e50; /* Texto en un color negro-gris oscuro */
+    line-height: 1.6; /* Espaciado entre líneas para mejor lectura */
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: justify; /* Justifica el texto para un mejor formato */
+    max-width: 800px; /* Limita el ancho del texto para mejorar la lectura */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px; /* Bordes suaves */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del texto */
+  }
+  
+  .descripcion i {
+    font-style: italic; /* Estilo en cursiva para 'Halo' */
+  }
