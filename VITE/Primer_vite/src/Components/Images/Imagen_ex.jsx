@@ -3,11 +3,11 @@ import './image.css'
 
 // como propiedad le pasaremos la ruta de la imagen 
 const Imagen = (Propiedad) => {
-  console.log(Propiedad, 'props de la ruta');
+  // console.log(Propiedad, 'props de la ruta');
   
   return (
     <div className='Imagen'>
-      <h1 className='titulo'>Master Chief</h1>
+      <h1 className='titulo'>{Propiedad.Subtitle}</h1>
       <img className='imagen' src={Propiedad.ruta} alt="Master chetos" />
     </div>
   )
